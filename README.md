@@ -145,43 +145,28 @@ Applied methods:
 
 ## **7️⃣ Python Implementation Structure** 💻
 
-📁 data/
+.
+├── data/
+│   ├── Chlorhexidine Trials.xlsx
+│   ├── Data_Dictionary.png
+│   ├── Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash.pdf
+│   ├── Raw Data from Chlorhexidine Trial.xlsx
+│
+├── results/
+│   ├── km_overall.png
+│   ├── km_by_arm.png
+│   ├── cox_summary.png
+│   ├── cox_ph.png
+│   ├── ph_age.png
+│   ├── ph_apache2.png
+│   ├── ph_gender.png
+│   ├── ph_TLCD1.png
+│   ├── ph_Trial_arm.png
+│
+├── Chlorhexidine_Trials.ipynb
+├── LICENSE
+├── README.md
 
-Chlorhexidine Trials.xlsx
-
-Data_Dictionary.png
-
-Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash.pdf
-
-Raw Data from Chlorhexidine Trial.xlsx
-
-📁 results/
-
-km_overall.png
-
-km_by_arm.png
-
-cox_summary.png
-
-cox_ph.png
-
-ph_age.png
-
-ph_apache2.png
-
-ph_gender.png
-
-ph_TLCD1.png
-
-ph_Trial_arm.png
-
-📄 Chlorhexidine_Trials.ipynb
-<br>
-📄 LICENSE
-<br>
-📄 README.md
-<br>
----
 
 ## **8️⃣ Key Visualizations** 📊
 

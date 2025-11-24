@@ -148,6 +148,8 @@ Applied methods:
 
 ## **7️⃣ Python Implementation Structure** 💻
 
+📁 Project Structure
+
 .
 ├── data/
 │   ├── Chlorhexidine Trials.xlsx
@@ -165,10 +167,13 @@ Applied methods:
 │   ├── ph_gender.png
 │   ├── ph_TLCD1.png
 │   ├── ph_Trial_arm.png
+│   ├── cox_forest.png
+│   ├── nelson_overall.png
+│   ├── nelson_by_arm.png
 │
 ├── Chlorhexidine_Trials.ipynb
 ├── LICENSE
-├── README.md
+└── README.md
 
 
 ## **8️⃣ Key Visualizations** 📊
@@ -311,5 +316,6 @@ These results align with clinical knowledge that chlorhexidine is effective in m
 - This project is licensed under the MIT License.
 - You are free to use, modify, distribute, and build upon this work, provided that the original license is included with any copies or substantial portions of the software.
 - View Full License: [MIT License](LICENSE)
+<br>
 **End of README**
 

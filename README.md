@@ -51,7 +51,8 @@ This project analyses patient-level data from a randomized controlled trial comp
 ## **3️⃣ Dataset Description** 📚
 
 - **Source:** Hospital-based randomized controlled trial, 140 patients randomized to two arms (0.12% vs 0.20% chlorhexidine).  
-- **Working data:** cleaned dataset derived from `Raw Data form Chlorhexidine Trial.xlsx`.
+- **Working data:** cleaned dataset derived from [Raw Data from Chlorhexidine Trial](./data/Raw%20Data%20from%20Chlorhexidine%20Trial.xlsx).
+
 
 ### **Core variables**
 | Column | Description | Type |

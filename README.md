@@ -189,20 +189,24 @@ Applied methods:
 .
 ├── data/
 │   ├── Chlorhexidine Trials.xlsx
-│   ├── Data_Dictionary.png
 │   ├── Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash.pdf
 │   ├── Raw Data from Chlorhexidine Trial.xlsx
 │
 ├── results/
+│   ├── correlation.png
 │   ├── km_overall.png
 │   ├── km_by_arm.png
 │   ├── cox_summary.png
-│   ├── cox_ph.png
+│   ├── hazard_ratio.png
+│   ├── cox_hazards.png
 │   ├── ph_age.png
-│   ├── ph_apache2.png
+│   ├── ph_event_distribution.png
 │   ├── ph_gender.png
-│   ├── ph_TLCD1.png
-│   ├── ph_Trial_arm.png
+│   ├── ph_tlc.png
+│   ├── ph_culture.png
+│   ├── ph_microbial.png
+│   ├── ph_apache.png
+│   ├── ph_xray.png
 │   ├── cox_forest.png
 │   ├── nelson_overall.png
 │   ├── nelson_by_arm.png
@@ -270,7 +274,7 @@ Since p > 0.05, there is **no statistically significant difference** in survival
 This is mainly due to the very low number of events (only 7).
 
 ---
-## **4 - Correlation Heatmap of Predictors**
+### **4 - Correlation Heatmap of Predictors**
 <div align="center">
   <img src="results/correlation.png" width="600" alt="Overall KM">
 </div>
@@ -296,7 +300,7 @@ Variables with no variability distort correlation analysis and weaken Cox modell
 
 ---
 
-### **4. Cox Proportional Hazards (Multivariable)**  
+### **5. Cox Proportional Hazards (Multivariable)**  
 
 <div align="center">
   <img src="results/cox_hazards.png" width="800" alt="Cox summary">
@@ -357,7 +361,7 @@ Cox model assumptions are satisfied.
 Hazard ratios remain stable over time.
 ---
 
-### **7. Nelson Aalen cumulative hazard plots**  
+### **8. Nelson Aalen cumulative hazard plots**  
 <div align="center">
   <img src="results/nelson.png" width="600" alt="Nelson Overall">
 </div>
@@ -371,7 +375,7 @@ VAP was infrequent throughout the observation period.
   
 ---
 
-## **10 - Event Distribution Plot**
+### **9 - Event Distribution Plot**
 
 <div align="center">
   <img src="results/event_distribution.png" width="600" alt="Overall KM">
@@ -387,7 +391,7 @@ VAP was rare in both arms.
 
 ---
 
-## **🔟 Discussion** 💬
+### **🔟 Discussion** 💬
 
 The survival analysis shows a consistent pattern:
 
@@ -403,7 +407,7 @@ Both concentrations (0.12 percent and 0.2 percent) are effective in preventing V
 
 ---
 
-## **1️⃣1️⃣ Conclusion** ✅
+### **1️⃣1️⃣ Conclusion** ✅
 
 
 1. Both groups had high VAP-free survival (>90 percent) by day 10.  
@@ -413,7 +417,7 @@ Both concentrations (0.12 percent and 0.2 percent) are effective in preventing V
 5. Overall VAP incidence was very low, confirming strong effectiveness of oral hygiene protocol.
 ---
 
-## **1️⃣2️⃣ Future Work** 🔭
+### **1️⃣2️⃣ Future Work** 🔭
 
 To strengthen future analyses:
 

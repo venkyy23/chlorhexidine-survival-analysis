@@ -432,8 +432,8 @@ To strengthen future analyses:
 
 ### **Citation**
 - Original trial paper: *Nagesh Vyas, Priya Mathur, Shailesh Jhawar, Akash Prabhune, Pradeep Vimal (2021).*  
-- Notebook: `Chlorhexidine_Trials.ipynb`  
-- Case study PDF path: `/data/Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash.pdf`
+- Notebook:  [Chlorhexidine_Trials.ipynb](Chlorhexidine_Trials.ipynb))
+- Case study PDF path: [Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash](./data/Effectiveness%20of%20Oral%20Hygiene%20with%20Chlorhexidine%20Mouthwash.pdf))
 
 ---
 

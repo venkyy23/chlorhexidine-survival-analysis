@@ -28,9 +28,9 @@ published in *Annals of International Medical and Dental Research, Vol (7), Issu
 The complete article is included in this repository as **Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash.pdf**.  
 (If needed locally use: [Effectiveness of Oral Hygiene with Chlorhexidine Mouthwash](./data/Effectiveness%20of%20Oral%20Hygiene%20with%20Chlorhexidine%20Mouthwash.pdf))
 
-To read the complete interpretation open `/data/interpretation_of_survival_analysis.docx`.
+To read the complete interpretation open [survival_analysis_by_Venkatesha_Nayak.docx](/data/survival%20analysis%20by%20Venkatesha%20Nayak.docx)
 
-This repository reproduces and interprets **time-to-VAP (Ventilator-Associated Pneumonia)** outcomes using classical Survival Analysis methods in Python. All results, tables, and plots are generated via the **Chlorhexidine_Trials.ipynb**.
+This repository reproduces and interprets **time-to-VAP (Ventilator-Associated Pneumonia)** outcomes using classical Survival Analysis methods in Python. All results, tables, and plots are generated via the **Chlorhexidine_Trials.ipynb**.``.
 
 ---
 
